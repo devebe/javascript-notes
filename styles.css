@@ -2,7 +2,7 @@ body {
     font-family: "Roboto",Arial, Helvetica, sans-serif;
     font-size: 17px;
     line-height: 24px;
-    width: 1000px;
+    width: 1200px;
     display: flex;
     margin: auto;
 }
@@ -10,13 +10,14 @@ body {
 .table {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 0px;
     padding: 8px 32px;
     margin-top: 32px;
     border: 1px solid black;
 }
 
 .table p {
+    margin: 0;
     width: 40px;
     padding: 8px;
     flex: 0 1 auto;
