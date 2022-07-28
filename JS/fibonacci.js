@@ -11,6 +11,7 @@ function getFibonacciNumberByIndex (indexZero,indexOne,indexOfRequestedNumber) {
 
     // | indexZero = a(phiPositive^0) + b(phiNegative^0) = a + b
     // | indexOne = a(phiNegative^1) + b(phiNegative^1)
+    // phiNegative can be written as -phiPositive+1 and therefore becomes redundant
 
     // Solving for a and b leads to following expressions:
 
