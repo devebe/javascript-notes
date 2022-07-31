@@ -52,6 +52,32 @@
             <li>Numbers in Javascript may not always be very precise</li>
             <li>The function <a class="code">typeof</a> can be used to determine if you are looking at a number or something else </li>
         </ol>
+        <h3>Data types in Javascript</h3>
+        <ul>
+            <li>Number: can represent both integer and floating point numbers. They will take most mathematical operations and
+                can include the values <a class="code">NaN</a> (not a number), <a class="code">-Infinity</a> and <a class="code">Infinity</a>. 
+            </li>
+            <li>BigInt: All integers above 2^53 - 1 cannot be stored in number, as do values smaller than - (2^53 - 1).
+                BigInt solves this problem. It is created through appending an "n" to the end of a number.
+            </li>
+            <li>String: can hold quotes. The type of quotation used makes a difference. <a class="code">" "</a>  (double quotes), 
+                <a class="code">' '</a> (single quotes) and <a class="code">` `</a>(backticks) are supported formatting for quotes. 
+                Backticks offer more functionality and allow for embedding variables
+                and expressions into a string by wrapping them in <a class="code">${...}</a>.
+            </li>
+            <li>Boolean: Can only hold true and false as values. One of the most common logical operators.</li>
+            <li>Null: Represents nothing, empty or value unknown.</li>
+            <li>Undefined: Represents that a value is not assigned. If a variable gets declared but does not get a value, Undefined
+                will be returned.
+            </li>
+            <li>Object: objects were made to store multiple entities, whereas other previously mentioned data types allow for the
+                storage of one specific thing (called primitive data types). Symbols are used as a way to create unique identifiers 
+                for objects.
+            </li>
+            <li>Typeof: allows to evaluate the argument of a variable for their data type. Useful for a quick check.</li>
+
+
+        </ul>
 
 
         
@@ -63,6 +89,7 @@
     </script>
     <script src="/JS/hello-world.js"></script>
     <script src="/JS/variable-declaration.js"></script>
+    <script src="/JS/password.js"></script>
 </body>
 
 </html>
