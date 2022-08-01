@@ -5,11 +5,9 @@ function squared (num) {
     return num * num;
 }
 
-
 function cubed (num) {
     return num * num * num;
 }
-
 
 function power (num,order) {
     return num ** order;
@@ -41,3 +39,9 @@ ${num} to the power of ${order} equals ${power(num,order)}
 ${num} factorial equals ${factorial(num)}
 `
 );
+
+function favoriteAnimal(animal) {
+    console.log(animal + " is my favorite animal!")
+  }
+   
+console.log(favoriteAnimal('Goat'));
