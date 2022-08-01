@@ -25,8 +25,12 @@ body {
 }
 
 .code {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 800;
+    font-family: "Roboto monospace", monospace;
+    font-weight: 400;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: #ebebeb;
+    border: 1px solid #dcdcdc;
 }
 
 h1, h2, h3, h4, h5 {
@@ -37,6 +41,6 @@ li {
     margin-bottom: 16px;
 }
 
-ol {
+ol, ul {
     padding-left: 24px;
 }

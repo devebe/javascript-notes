@@ -30,5 +30,5 @@ select.addEventListener('change', () => {
 
 function update(bgColor,textColor){
     html.style.backgroundColor = bgColor;
-    html.style.backgroundColor = textColor;
+    html.style.color = textColor;
 }
