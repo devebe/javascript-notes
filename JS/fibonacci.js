@@ -22,14 +22,17 @@ function getFibonacciNumberByIndex (indexZero,indexOne,indexOfRequestedNumber) {
     return numberAtIndex;
 }
 
-document.getElementById("indexZero").innerText = getFibonacciNumberByIndex(1,1,0);
-document.getElementById("indexOne").innerText = getFibonacciNumberByIndex(1,1,1);
-document.getElementById("indexTwo").innerText = getFibonacciNumberByIndex(1,1,2);
-document.getElementById("indexThree").innerText = getFibonacciNumberByIndex(1,1,3);
-document.getElementById("indexFour").innerText = getFibonacciNumberByIndex(1,1,4);
-document.getElementById("indexFive").innerText = getFibonacciNumberByIndex(1,1,5);
-document.getElementById("indexSix").innerText = getFibonacciNumberByIndex(1,1,6);
-document.getElementById("indexSeven").innerText = getFibonacciNumberByIndex(1,1,7);
-document.getElementById("indexEight").innerText = getFibonacciNumberByIndex(1,1,8);
-document.getElementById("indexNine").innerText = getFibonacciNumberByIndex(1,1,9);
-document.getElementById("indexTwenty").innerText = getFibonacciNumberByIndex(1,1,20);
+let indexZero = parseInt(prompt('First number',''));
+let indexOne = parseInt(prompt('Second number',''));
+
+document.getElementById("indexZero").innerText = getFibonacciNumberByIndex(indexZero,indexOne,0);
+document.getElementById("indexOne").innerText = getFibonacciNumberByIndex(indexZero,indexOne,1);
+document.getElementById("indexTwo").innerText = getFibonacciNumberByIndex(indexZero,indexOne,2);
+document.getElementById("indexThree").innerText = getFibonacciNumberByIndex(indexZero,indexOne,3);
+document.getElementById("indexFour").innerText = getFibonacciNumberByIndex(indexZero,indexOne,4);
+document.getElementById("indexFive").innerText = getFibonacciNumberByIndex(indexZero,indexOne,5);
+document.getElementById("indexSix").innerText = getFibonacciNumberByIndex(indexZero,indexOne,6);
+document.getElementById("indexSeven").innerText = getFibonacciNumberByIndex(indexZero,indexOne,7);
+document.getElementById("indexEight").innerText = getFibonacciNumberByIndex(indexZero,indexOne,8);
+document.getElementById("indexNine").innerText = getFibonacciNumberByIndex(indexZero,indexOne,9);
+document.getElementById("indexTen").innerText = getFibonacciNumberByIndex(indexZero,indexOne,10);
