@@ -1,20 +1,19 @@
-let num = 5;
-let order = 5;
+let num = parseInt(prompt('Enter number',''));
+let order = parseInt(prompt('Enter another number',''));
 
 function squared (num) {
     return num * num;
 }
-console.log(`${num} squared equals ${squared(num)}`);
+
 
 function cubed (num) {
     return num * num * num;
 }
-console.log(`${num} cubed equals ${cubed(num)}`);
+
 
 function power (num,order) {
     return num ** order;
 }
-console.log(`${num} to the power of ${order} equals ${power(num,order)}`);
 
 function factorial (num) {
     if (num < 0) return undefined;
@@ -26,4 +25,19 @@ function factorial (num) {
     }
     return num
 }
+
+console.groupCollapsed("Outcomes");
+console.log(`${num} squared equals ${squared(num)}`);
+console.log(`${num} cubed equals ${cubed(num)}`);
+console.log(`${num} to the power of ${order} equals ${power(num,order)}`);
 console.log(`${num} factorial equals ${factorial(num)}`);
+console.groupEnd('Outcomes');
+
+alert(
+`
+${num} squared equals ${squared(num)}
+${num} cubed equals ${cubed(num)}
+${num} to the power of ${order} equals ${power(num,order)}
+${num} factorial equals ${factorial(num)}
+`
+);
