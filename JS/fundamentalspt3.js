@@ -1,6 +1,5 @@
 function add7(num) {
-    num = num + 7;
-    return num;
+    return num + 7;
 }
 
 function multiply(x,y) {
@@ -13,8 +12,7 @@ function capitalize (text) {
     return result;
 }
 
-function lastLetter (text) { text.substring(text.length - 1);
-}
+function lastLetter (text) { return text.substr(-1);}
 
 console.log(add7(12)); // should result in 19
 console.log(multiply(12,13)) // should result in 156
