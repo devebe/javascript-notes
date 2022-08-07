@@ -13,7 +13,7 @@ button, button:active {
     height: 44px;
     width: auto;
     padding: 0 16px;
-    border-radius: 22px;
+    border-radius: 8px;
     background-color: #0000ff;
     color: #f2f2f2;
     -webkit-appearance: none;
