@@ -13,7 +13,7 @@ function countdown(number){
         else {
             para.textContent = i;
         }
-        setTimeout(output.appendChild(para),1000);
+        output.appendChild(para);
     }
 }
 
