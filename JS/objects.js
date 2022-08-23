@@ -154,3 +154,5 @@ const car = {
 
 };
 
+const persons = {};
+
